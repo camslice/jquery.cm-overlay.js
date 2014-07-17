@@ -288,10 +288,10 @@
             );
             if ( isTouch === false ){
             // add tooltip to close button - requires jQuery Tools
-                $cmClose.tooltip({
-                    position:'bottom center',
-                    effect:'fade'
-                });
+//                $cmClose.tooltip({
+//                    position:'bottom center',
+//                    effect:'fade'
+//                });
             }
             // attach normal event handlers
             $cmPrev.on('tap',function(){
